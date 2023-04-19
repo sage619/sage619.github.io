@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
-
-<p id="demo"></p>
-
-</body>
-</html>
+<img src="pic.jpg" id="myPicture" />
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#myPicture').on('click', function(){
+            alert('image clicked');
+        });
+    });
+</script>
