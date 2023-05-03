@@ -48,3 +48,4 @@ playButton.addEventListener('click', function() {
 	osc.connect(noteGain);
   noteGain.connect(masterVolume);
 });
+ 
