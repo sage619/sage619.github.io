@@ -1,25 +1,31 @@
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.1">
+<label>Waveform:</label>
+<input type="radio" name="waveform" value="sine" checked>Sine
+<input type="radio" name="waveform" value="square">Square
+<input type="radio" name="waveform" value="sawtooth">Sawtooth
+<input type="radio" name="waveform" value="triangle">Triangle
+
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>My Page</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="synth.js" type="text/javascript"></script>
   
-<body>
-
-<h2>YO IT'S MY WEBSITE</h2>
-<img src="https://i.pinimg.com/564x/af/44/41/af44415a12b12435f959b7183af4b980.jpg" alt="wolf" width="500" height="333">
+<button id="start">Start</button>
+<button id="stop">Stop</button>
+<input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.1">
+<label>Waveform:</label>
+<input type="radio" name="waveform" value="sine" checked>Sine
+<input type="radio" name="waveform" value="square">Square
+<input type="radio" name="waveform" value="sawtooth">Sawtooth
+<input type="radio" name="waveform" value="triangle">Triangle
   
-  <p> </p>
-
-<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
   
-   <p> </p>
-<script src="http://p5js.org/reference/#/libraries/p5.sound">p5.sound library"></script>
-<script src="mic_input.js"></script>
-
-</body>
+  
+  </body>
 </html>
-
- <p> </p>
-
-<audio controls>
-  <source src="8-bit_amen.wav" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
